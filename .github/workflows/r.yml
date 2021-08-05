@@ -23,8 +23,5 @@ jobs:
       - name: change permission
         run: chmod +x deploy_to_aws.sh
       - name: rsync over ssh
-        run: spawn deploy_to_aws.sh
-      - name: rsync over ssh2
-        run: expect "password:"
-      - name: enter
-        run: send "sujay"
+        run: ./ deploy_to_aws.sh <<!sujay!
+      
