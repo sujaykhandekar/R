@@ -19,7 +19,7 @@ getDefault <- function(){
   return(list(dim="", mea="", size="", yaxis=list(), xaxis=list(), chart=list())
 }
 
-#
+#asa
 # set default mea
 #
 setDefaultMea <- function(default,default.mea=""){
