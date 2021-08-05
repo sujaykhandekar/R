@@ -5,7 +5,7 @@ ssh ubuntu@3.234.99.37  "
         cd /newstorage/users/sujay/R_check
         ##mkdir temp_sdk2
         echo 'directory created'
-        git fetch origin 
+        git status 
         echo 'fetching done'
          
 "
