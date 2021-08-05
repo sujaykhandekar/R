@@ -3,7 +3,7 @@
 # Determine measures and dimensions
 # Generate meta data and store JSON
 # Query Solr and store the information in SOLR
-# Save the data as caches
+# Save the data as cachs
 
 # Author: Jitender Aswani, Co-Founder @datadolph.in
 # Date: 3/15/2013
