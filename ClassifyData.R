@@ -6,7 +6,7 @@
 
 
 
-#
+
 # Generate extra date cols
 #
 generateExtraDateCols < function(data, col.index) 
