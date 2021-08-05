@@ -1,10 +1,7 @@
 #!/bin/bash
 echo 'Starting to Deploy...'
-ssh ubuntu@3.234.99.37  " sudo docker image prune -f 
+ssh ubuntu@3.234.99.37  " 
         cd /newstorage/users/sujay/R_check 
-        sudo docker-compose down
-        git fetch origin
-        git reset --hard origin  &&  echo 'You are doing well'
-        sudo docker-compose build && sudo docker-compose up -d
-        "
+        echo "cool"
+"
 echo 'Deployment completed successfully'
